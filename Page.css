@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    font-weight: 200;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    
+}
+h4{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+body{
+    font-family: "Poppins",sans-serif;
+}
+.container{
+    width:70%;
+    margin:auto;
+    background-color: rgb(248, 248, 248);
+    height: 100vh;
+}
+
+.content{
+    width:50%;
+    margin:auto;
+    text-align: center;
+}
+.content p{
+    font-size: 12px;
+    margin-top: 14px;
+    font-weight: 500;
+    
+}
+
+.card-wrapper{
+    
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+.card-wrapper p{
+    font-size: 8px;
+    margin-top: 10px;
+    
+}
+.column {
+    float: left;
+    width: 30%;
+    padding: 0 80px;
+
+  }
+.row {margin: 0 -5px;}
+.row:after {
+  content: "";
+  clear: both;
+}
+.card-1{
+    height: 150px;
+    width:200px;
+    font-family:  "Poppins",sans-serif;
+    background-color: #ffff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+    margin: 40px;
+    margin-top: 5rem;
+}
+.card-2{
+    height: 150px;
+    width:200px;
+   font-family:  "Poppins",sans-serif;
+   background-color: #ffff;
+   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+   text-align: center;
+   border-radius: 8px;
+   
+}
+.card-3{
+    height: 150px;
+    width:200px;
+    font-family:  "Poppins",sans-serif;
+    background-color: #ffff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 1rem;
+    
+ }
+ .card-4{
+    height: 150px;
+    width:200px;
+    font-family:  "Poppins",sans-serif;
+    background-color: #ffff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 5rem;
+    margin-left: -50px;
+    
+ }
+.card-header-1{
+    height: 3px;
+    background-color: rgb(6, 209, 209);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.card-header-2{
+    height: 3px;
+    background-color: rgb(247, 29, 29);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.card-header-3{
+    height: 3px;
+    background-color: rgb(252, 169, 115);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.card-header-4{
+    height: 3px;
+    background-color: rgb(67, 146, 250);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.card-text{
+    margin:20px;
+    text-align: left;
+}
+.box{
+    border: 1px solid #ffff;
+    width: 100%;
+    height: 50%;
+    overflow: auto;
+  overflow: hidden;
+  max-height: 4em;
+  line-height: 1.8em;
+  
+}
+.images{
+    height:30px;
+    width:30px;
+    margin-left: 120px;
+}
+@media screen and (max-width: 1024px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    .container{
+        width:100%;
+        height:100vh;
+    }
+  }
